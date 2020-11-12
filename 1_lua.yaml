@@ -34,7 +34,7 @@ static_resources:
                       end
                       
                       function envoy_on_response(response_handle)
-                        response_handle:logInfo("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR")
+                        response_handle:logInfo("Response captured")
                       end
                 - name: envoy.router    
               stat_prefix: http_proxy
